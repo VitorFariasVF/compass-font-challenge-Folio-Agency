@@ -1,0 +1,29 @@
+:root {
+    --active: #ffbd52;
+    --primary: #F17A8F;
+    --secondary: #6CC9B7;
+    --additional: #3886D1;
+    --base: #79BAF2;
+    --base-seconday: #428ACA;
+    --device: #FBF8F3;
+    --objects: #FBF8F3;
+    --objects-2: #F1B2CC;
+    --background: #D3C0B4;
+    --dark: #232340;
+    --active-page-color: #5468E7;
+    --another-page-color1: #ADADAD;
+    --another-page-color2: #8B8B8B;
+    --font-montserrat: font-family: 'Montserrat', sans-serif;
+    --font-roboto: font-family: 'Roboto', sans-serif;;
+    
+}
+
+.header__main {
+    margin: 52px 32px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
