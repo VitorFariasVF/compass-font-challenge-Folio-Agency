@@ -9,17 +9,23 @@
     --objects: #FBF8F3;
     --objects-2: #F1B2CC;
     --background: #D3C0B4;
-    --dark: #232340;
+    --dark-blue: #232340;
+    --graphite: #606060;
     --active-page-color: #5468E7;
     --another-page-color1: #ADADAD;
     --another-page-color2: #8B8B8B;
-    --font-montserrat: font-family: 'Montserrat', sans-serif;
-    --font-roboto: font-family: 'Roboto', sans-serif;;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;;
     
 }
 
+body {
+    font-family: var(--font-montserrat);
+}
+
 .header__main {
-    margin: 52px 32px;
+    margin: 2rem 2rem;
+
 }
 
 .header__container {
@@ -31,3 +37,44 @@
     margin: .5em 0;
 }
 
+.container__hero {
+    display: "";
+    height: 88vh;
+    background-image: url(../img/img-bg-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1.2rem -7.5em; 
+}
+
+.container__hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--dark-blue);
+    margin: 2rem 2rem;
+
+}
+
+.container__hero-paragraph {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    margin: 2rem 2rem 2.5em;
+
+}
+
+.container__hero-buttom {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.buttom {
+    background-color: var(--active-page-color);
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+}
