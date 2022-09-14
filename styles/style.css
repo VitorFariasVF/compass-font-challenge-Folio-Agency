@@ -19,12 +19,14 @@
     
 }
 
-body {
+.body-hero {
     font-family: var(--font-montserrat);
     background-image: url(../img/Path.svg);
     background-repeat: no-repeat;
     background-position: 12rem 0em;
-
+}
+.body-service { 
+    font-family: var(--font-montserrat);
 }
 
 .header__main {

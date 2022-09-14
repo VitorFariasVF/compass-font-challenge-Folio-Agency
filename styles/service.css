@@ -1,0 +1,155 @@
+:root {
+    --active: #ffbd52;
+    --primary: #F17A8F;
+    --secondary: #6CC9B7;
+    --additional: #3886D1;
+    --base: #79BAF2;
+    --base-seconday: #428ACA;
+    --device: #FBF8F3;
+    --objects: #FBF8F3;
+    --objects-2: #F1B2CC;
+    --background: #D3C0B4;
+    --dark-blue: #232340;
+    --graphite: #606060;
+    --active-page-color: #5468E7;
+    --another-page-color1: #ADADAD;
+    --another-page-color2: #8B8B8B;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;;
+    
+}
+
+.body-service {
+    height: 200vh;
+    background-image: linear-gradient(to bottom, rgba( 255, 255, 255, 0.0001), rgba(237, 229, 240, 0.5043));
+}
+
+.service-main {
+    background-image: url(../img/line\ 1line3-.svg);
+    background-position: 0rem 40rem; 
+    background-repeat: no-repeat; 
+}
+
+.container__service-div {
+    display: flex;
+    margin: 4rem 2rem;
+
+}
+
+.container__service-p {
+    margin-top: 2rem;
+    font-family: var(--font-montserrat);
+    color: var(--active-page-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__service-p-bold {
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    color: var(--active-page-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__service-txt {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0rem 2rem;
+    color: black;
+    vertical-align: top;
+    text-align: left;
+}
+
+.container__service-p2 {
+    margin-top: 2rem;
+    font-family: var(--font-montserrat);
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__service-p-bold2 {
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__service-txt2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0rem 2rem;
+    color: black;
+    vertical-align: top;
+    text-align: left;
+}
+
+.container__service-choice {
+    display: flex;
+    margin: 2rem 2rem;
+    justify-content: flex-start;
+}
+
+.container__service-choice-img1 {
+    background-color: var(--dark-blue);
+    border-radius: 2rem;
+    padding:1rem;
+    border: none;
+    margin: 0 .5rem 0 0;
+}
+
+.container__service-choice-img2 {
+    background-color: var(--additional);
+    border-radius: 2rem;
+    padding:1rem;
+    border: none;
+    margin: 0 0 0 .5rem;
+}
+
+.container__service-cards {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card {
+    color: var(--active-page-color);
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: black 1px 1px 5px -2px;
+    transition: 0.6125s;
+}
+
+.service-card:hover {
+    color: var(--device);
+    background-color: var(--active-page-color);
+}
+
+.service-card img {
+    margin: 0 2rem;
+}
+
+.container__service-n {
+    margin: 4rem 2rem 2rem 2rem;
+    color: var(--active-page-color);
+    font-weight: 600;
+    font-size: 10rem;
+}
+
+.container__service-txt-emote {
+    margin: 0 2rem 4rem 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.container__service-bg {
+    background-image: url(../img/phone.svg);
+    height: 60vh;
+}
