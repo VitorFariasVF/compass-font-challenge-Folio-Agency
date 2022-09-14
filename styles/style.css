@@ -184,6 +184,7 @@ body {
 
 .container__about-buttom {
     background-color: var(--active-page-color);
+    text-decoration: none;
     color: white;
     padding: 1.1rem 2.5rem;
     font-size: 1.1em;
@@ -217,4 +218,129 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+footer {
+    height: 95vh;
+    margin: 2rem;
+}
+
+.footer__card {
+    display: flex;
+    background-image: url(../img/line\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 5rem 0rem;
+    background-color: var(--active-page-color);
+    height: 64vh;
+    border-radius: 2rem;
+    align-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__card-img {
+    margin: 2rem -2rem 1rem 0;
+}
+
+.footer__card-line {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 36vh; 
+}
+.footer__card-hello {
+    color: var(--device);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer__cardp {
+    color: var(--device);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 2rem;
+    text-align: center;
+}
+
+.footer__card-vl {
+    width: 82vw;
+    border: 1px solid rgba(255, 255, 255, 0.242);
+}
+
+.footer__card-talk {
+    color: var(--device);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 2rem ;
+    text-align: center;
+}
+
+.footer__buttom {
+    background-color: var(--device);
+    width: 70vw;
+    height: 4rem;
+    color: var(--active-page-color);
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.footer__info-img {
+    margin-bottom: 1em;
+}
+
+.footer__infop {
+    text-align: center;
+    color: var(--another-page-color1);
+    margin: 0 1rem 1rem;
+}
+
+.footer__info-nav {
+    height: 4rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0 0 0 2rem ;
+}
+.footer_bubble-social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__bubble-social-btm {
+    display: flex;
+    justify-content: center;
+    background-color: var(--device);
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 2rem;
+    margin: 1rem .4rem;
+}
+
+.face-btm {
+    background-color: var(--active-page-color);
+}
+
+.footer__btm-social {
+    width: 16px;
+}
+
+.footer__copyright {
+    text-align: center;
+    color: var(--another-page-color1);
+    font-size: 0.6125rem;
+    margin-bottom: .1rem;
 }
