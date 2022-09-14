@@ -87,3 +87,134 @@ body {
     border: none;
     text-decoration: none;
 }
+
+.container__about {
+    height: 200vh;
+    background-color: var(--dark-blue);
+    background-image: url(../img/Group.svg);
+}
+
+.container__about-div {
+    display: flex;
+    margin: 4rem 2rem;
+
+}
+
+.container__about-p {
+    margin-top: 2rem;
+    font-family: var(--font-montserrat);
+    color: var(--another-page-color1);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__about-p-bold {
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    color: var(--device);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__about-txt {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0rem 2rem;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+}
+
+.container__about-choice {
+    display: flex;
+    margin: 2rem 2rem;
+    justify-content: space-around;
+}
+
+.container__about-choice-img1 {
+    background-color: var(--dark-blue);
+    border-radius: 2rem;
+    padding:1rem;
+    border: none;
+}
+
+.container__about-choice-img2 {
+    background-color: var(--additional);
+    border-radius: 2rem;
+    padding:1rem;
+    border: none;
+}
+
+.container__about-choice-year {
+    background-color: var(--dark-blue);
+    border-radius: 2rem;
+    padding:1rem 2rem;
+    border: none;
+    color: var(--device);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container__about-bg {
+    height: 62vh;
+
+}
+
+.container__about-grup {
+    display: "";
+    margin: 0 2rem;
+
+}
+
+.container__about-grup-h2 {
+    color: var(--device);
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 2em;
+
+}
+
+.container__about-grup-p {
+    color: var(--another-page-color2);
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 2em;
+    margin: 0 0 2rem;
+}
+
+.container__about-buttom {
+    background-color: var(--active-page-color);
+    color: white;
+    padding: 1.1rem 2.5rem;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    margin: 0rem 2rem;
+}
+
+#container__about-buttom {
+    margin-bottom: 4rem;
+}
+
+.container__about-circle {
+    margin: 0 2rem;
+    padding: 77px;
+    box-shadow: rgba(0, 0, 0, 0.2423) 0 2rem 2rem 0;
+    border-radius: 300px;
+}
+.container__about-circleh2 {
+    color: var(--device);
+    text-align: center;
+    font-weight: 600;
+    font-size: 8rem;
+
+}
+
+.container__about-circlep {
+    color: var(--device);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
