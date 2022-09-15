@@ -110,6 +110,7 @@ body {
     height: 200vh;
     background-color: var(--dark-blue);
     background-image: url(../img/Group.svg);
+    background-repeat: no-repeat;
 }
 
 .container__about-div, .container__job-div {
@@ -425,4 +426,158 @@ footer {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+    .header__container-tablet, .container__hero-img, .container__about-tablet-bg{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header__container {
+        display: none;
+    }
+    .header__container-tablet {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+    }
+    ul {
+        list-style: none;
+    }
+    
+    .nav__menu-list {
+        display: flex;
+        justify-content:center;
+        font-size: .95em;
+        font-weight: 600;
+        padding: 0 10%;
+    }
+    
+    .nav__menu-item {
+        padding: 0 6%;
+    }
+    
+    .nav__menu-item a {
+        text-decoration: none;
+        text-transform: capitalize;
+    } 
+    
+    .active-page {
+        color: var(--active-page-color);
+        font-size: 1rem;
+    }
+    
+    .another-page1 {
+        color: var(--another-page-color1);
+    }
+    
+    .another-page2 {
+        color: var(--another-page-color2);
+    }
+
+    .another-page2-buttom {
+        position: absolute;
+        padding: 2px 6px;
+        border-radius: 15px;
+        background-image: linear-gradient(to bottom, rgba(56, 37, 221, 0.575), rgba(23, 0, 124, 0.753));
+        color: blanchedalmond;
+        border: 1px solid;
+    }
+    
+    .buttom__menu {
+        display: flex;
+        justify-content: end;
+        background-color: var(--dark-blue);
+        width: 180px;
+        height: 60px;
+        color: var(--device);
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: .5rem;
+        border: none;
+    }
+    
+    .buttom__menu-contact {
+        background-color: var(--dark);
+        width: 180px;
+        height: 64px;
+        color: var(--device);
+        font-size: 1.1em;
+        font-weight: 600;
+        border-radius: 6px;
+        border: none;
+    
+    }
+
+    .container__hero {
+        height: 80vh;
+        background-image: url(../img/3d\ +\ wall.svg);
+        background-size: 100%;
+        background-position: 0rem 0rem;
+        display:flex;
+        flex-direction: column;
+        margin: 0 0 0 4rem;
+    }
+
+    .container__hero-title {
+        font-weight: 700;
+        font-size: 3rem;
+        text-align: left;  
+    }
+
+    .container__hero-paragraph{
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--graphite);
+    }
+    .container__hero-buttom {
+        display: "";
+    }
+    .container__hero-img {
+        display: inline;
+        height: 48px;
+        position: absolute;
+        padding: 31rem 0 0 0; 
+    }
+    .container__about {
+        height: 150vh;
+    }
+    .container__about-choice-year {
+        display: none;
+    }
+        
+    .container__about-tablet {
+        background-image: url(../img/bg\ for\ 3dwhoweare.png);
+        background-position: 13rem 0rem;
+        background-size: 80%;
+    }
+    .container__about-div, .container__about-txt{
+        margin: 2rem 2rem 2rem 10rem;
+
+    }
+    .container__about-choice {
+        display: flex;
+        justify-content: end;
+    
+    }
+    .container__about-choice-side1, .container__about-choice-side2 {
+        margin: -7rem .5rem;
+    }
+    .container__about-bg {
+        height: 0;
+    }
+    .container__about-bg-tablet {
+        height: 90vh;
+    }
+    .about-grup-tabet-list {
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
+        padding: 2rem;
+        margin: 2rem;
+
+    }
 }
