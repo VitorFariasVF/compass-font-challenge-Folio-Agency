@@ -143,6 +143,50 @@
     font-size: 1rem;
 }
 
+.container__cta {
+    display: "";
+}
+.container__cta-div {
+    display: flex;
+    margin: 4rem 4rem;
+
+}
+
+.container__cta-p {
+    margin: 5rem 0 0 0;
+    font-family: var(--font-montserrat);
+    color: var(--another-page-color1);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.container__cta-p-bold {
+    margin: 5rem 0 0 0;
+    padding: 0 1.5rem;
+    color: var(--device);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cta-h2 {
+    margin: 0 4rem 2rem 4rem;
+    text-align: left;
+    font-size: 2.53rem;
+    font-weight: 800;
+    color: var(--device);
+}
+
+.cta-buttom {
+    margin: 4rem 5rem;
+    text-transform: none;
+    color: var(--active-page-color);
+    background-color: var(--device);
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
 .container__about-txt {
     font-weight: 600;
     font-size: 2.4rem;
@@ -370,4 +414,8 @@ footer {
     color: var(--another-page-color1);
     font-size: 0.6125rem;
     margin-bottom: .1rem;
+}
+
+a {
+    text-decoration: none;
 }
