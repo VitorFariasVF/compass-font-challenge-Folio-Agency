@@ -25,7 +25,8 @@
     background-repeat: no-repeat;
     background-position: 12rem 0em;
 }
-.body-service { 
+
+.body-service, .body-work { 
     font-family: var(--font-montserrat);
 }
 
@@ -68,10 +69,18 @@
 
 .container__hero-paragraph {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 500;
     text-align: left;
     margin: 2rem 2rem 2.5em;
 
+}
+
+.container__work-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin: 2rem 2rem 2.5em;
+    color: var(--another-page-color1);
 }
 
 .container__hero-buttom {
@@ -114,6 +123,22 @@
     margin-top: 2rem;
     padding: 0 1.5rem;
     color: var(--device);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__nwork-p {
+    margin-top: 2rem;
+    font-family: var(--font-montserrat);
+    color: var(--active-page-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container__nwork-p-bold {
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+    color: var(--active-page-color);
     font-weight: 600;
     font-size: 1rem;
 }

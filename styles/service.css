@@ -93,7 +93,7 @@
 }
 
 .container__service-choice-img1 {
-    background-color: var(--dark-blue);
+    background-color: var(--device);
     border-radius: 2rem;
     padding:1rem;
     border: none;
