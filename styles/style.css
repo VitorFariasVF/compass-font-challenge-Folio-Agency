@@ -623,7 +623,7 @@ a {
     }
 
     .container__hero {
-        height: 80vh;
+        height: 100vh;
         background-image: url(../img/3d\ +\ wall.svg);
         background-size: 100%;
         background-position: 0rem -9rem;
