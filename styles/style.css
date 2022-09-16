@@ -429,7 +429,7 @@ a {
 }
 
 @media screen and (min-width: 320px) {
-    .header__container-tablet, .container__hero-img, .container__about-tablet-bg{
+    .header__container-tablet, .container__hero-img, .container__about-tablet-bg, .container__about-bg-tablet-img, .container__about-grup-tabet-list {
         display: none;
     }
 }
@@ -578,6 +578,36 @@ a {
         font-weight: 400;
         padding: 2rem;
         margin: 2rem;
-
     }
+    .container__about-grup-tabet-list {
+        display: block;
+        margin: 5rem 0 0 0;
+    }
+     .container__about-bg-tablet-img {
+        display: block;
+        position: absolute;   
+        margin: 8rem;
+     }
+     
+    .container__about-grup {
+        display: flex;
+        flex-direction: column;
+        margin: -9rem 0 0 11rem;
+    }
+
+    .container__about-buttom { 
+        margin: -9rem 0 0 11rem;
+    }
+
+    .container__about-circle {
+        height: 80px;
+        width: 80px; 
+        margin: -18rem 0 0 42rem;   
+        
+    }
+    
+    .container__about-circleh2 {
+        margin: -3rem 0 0 -2.5rem;
+    }
+
 }
